@@ -98,6 +98,8 @@ function reset(){
    
     totaltypedWords="";
      wordsPerMinute=0;
+     document.getElementById("wordCount").innerText="";
+
     
     theTimer.innerHTML="00:00:00";
     testWrapper.style.borderColor="grey";
